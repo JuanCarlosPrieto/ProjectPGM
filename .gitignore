@@ -1,0 +1,51 @@
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test, lint and coverage caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter notebooks (transient data)
+.ipynb_checkpoints/
+
+# Local configuration / secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded datasets and generated artifacts
+data/raw/
+data/processed/
+data/external/
+outputs/
+results/
+logs/
+runs/
+checkpoints/
+wandb/
+lightning_logs/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

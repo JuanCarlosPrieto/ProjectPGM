@@ -1,0 +1,18 @@
+
+# Python 3.12
+
+# Core numerical and probabilistic modeling
+torch==2.15.0
+numpy==2.5.4
+scipy==1.18.1
+
+# scRNA-seq datasets and evaluation
+anndata==0.13.4
+pandas==3.1.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+tqdm==4.70.1
+
+# Development and experiments
+pytest==9.2.0
+ipykernel==7.4.0
