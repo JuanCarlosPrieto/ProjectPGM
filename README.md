@@ -10,7 +10,7 @@ Re-implementation of the article by Grønbech et al. (2020),
 ## Environment preparation (Linux / macOS / WSL)
 
 ```bash
-python3.12 -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
